@@ -1,0 +1,124 @@
+.body {
+  width: 100%;
+  min-height: 850px;
+  height: auto;
+  padding-top: 108px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f7;
+  z-index: 2;
+  margin-bottom: 319px;
+  padding-bottom: 50px;
+}
+.naslov {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  color: #2b2b2b;
+  margin-left: 47px;
+}
+.line {
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid #bcbcbc;
+}
+.total {
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+  margin-top: 20px;
+}
+.cartitems {
+  display: inline-block;
+}
+.praznaKorpa {
+  margin-left: 50px;
+}
+.praznaKorpa h3 {
+  font-size: 35px;
+  font-family: "Bebas Neue";
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.back {
+  cursor: pointer;
+  margin-left: 40px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.print {
+  display: none;
+}
+
+.printbutton {
+  width: 150px;
+  height: 40px;
+  background-color: #f54343;
+  color: white;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+.izmeniPorudzbinu {
+  margin-left: 100px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+  .total {
+    display: block;
+    position: relative;
+    left: 0;
+    margin-left: calc(50% - 205px);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .body {
+    position: relative;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 850px) {
+  .izmeniPorudzbinu {
+    margin-left: 47px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .naslov,
+  .izmeniPorudzbinu {
+    margin-left: 30px;
+  }
+  .line {
+    width: calc(100% - 60px);
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .total {
+    margin-left: 0;
+  }
+}
+
+@media print {
+  .container {
+    display: none !important;
+  }
+  .print {
+    display: block;
+  }
+}

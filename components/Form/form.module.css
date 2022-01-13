@@ -1,0 +1,29 @@
+.form {
+  margin-left: calc(50% - 250px);
+  width: 500px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.form h2 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  color: #212121;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .form {
+    width: calc(100% - 30px);
+    margin-left: 15px;
+  }
+}

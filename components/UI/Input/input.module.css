@@ -1,0 +1,91 @@
+.inputdiv {
+  height: 54px;
+  background: #ffffff;
+  border: 0.5px solid #bcbcbc;
+  box-sizing: border-box;
+  border-radius: 9px;
+  width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  /* margin-left: 15px; */
+}
+.input {
+  margin-top: 9px;
+  height: 36px;
+  width: auto;
+  border: 0;
+  box-sizing: border-box;
+  padding: 0;
+  outline: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #212121;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-flex;
+}
+.input::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #bcbcbc;
+}
+.textbox {
+  margin-top: 9px;
+  height: 36px;
+  width: auto;
+  border: 0;
+  box-sizing: border-box;
+  padding: 0;
+  outline: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #212121;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-flex;
+}
+.label {
+  width: auto;
+  border-right: 0.5px solid #bcbcbc;
+  height: 40px;
+  /* position: absolute; */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #212121;
+  margin-top: 6.5px;
+  padding-top: 8px;
+  margin-left: 15px;
+  padding-right: 15px;
+  display: inline-flex;
+}
+.labelimg {
+  width: 26px;
+  height: 18px;
+  margin-top: 3.5px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .label {
+    position: absolute;
+    top: -43px;
+    border-right: 0;
+  }
+  .inputdiv {
+    margin-top: 30px;
+  }
+}

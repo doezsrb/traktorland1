@@ -1,0 +1,80 @@
+.proizvodi {
+  background: #f0f0f0;
+  width: calc(100% - 300px);
+  height: 100%;
+  min-height: 1024px;
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+
+.heading {
+  height: 90px;
+  background: #ffffff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.heading h3 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 86%;
+  color: #000000;
+  margin-left: 20px;
+  display: inline-block;
+}
+.novi {
+  color: #f54343;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  font-size: 25px;
+  font-family: "Bebas Neue";
+  font-weight: 500;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.zavrseni {
+  color: #2b2b2b;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  font-size: 25px;
+  font-family: "Bebas Neue";
+  font-weight: 500;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1650px) {
+  .proizvodi {
+    left: 200px;
+    width: calc(100% - 200px);
+  }
+}
+@media only screen and (max-width: 880px) {
+  .proizvodi {
+    left: 0;
+    top: 260px;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .heading {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .heading {
+    height: 250px;
+    border-top: 0.5px solid #f54343;
+    width: 100%;
+  }
+  .novi,
+  .zavrseni {
+    display: block;
+    margin-left: 30px;
+  }
+}

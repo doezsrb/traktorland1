@@ -1,0 +1,106 @@
+.proizvod {
+  width: calc(100% - 50px);
+  min-width: 457px;
+  margin-top: 25px;
+  margin-left: 25px;
+  background: #fefefe;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  position: relative;
+  /* display: inline-block; */
+  height: 110px;
+}
+.aa {
+  width: 650px;
+  background: #fefefe;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  margin-left: 100px;
+  position: relative;
+  height: 110px;
+}
+
+.img {
+  position: absolute;
+  top: 30px;
+  left: 13px;
+  width: 115px;
+  height: auto;
+}
+.name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  color: #2b2b2b;
+  margin-left: 140px;
+  padding-top: 20px;
+  max-width: 370px;
+  height: 60px;
+  /* overflow: hidden; */
+  margin-bottom: 0;
+  height: 65px;
+  margin-right: 30px;
+}
+
+.price {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 20px;
+  color: #2b2b2b;
+  margin-left: 140px;
+  margin-top: 5px;
+}
+.rabat {
+  font-weight: 500;
+}
+.kolicina {
+  border: 0.5px solid #f54343;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 43px;
+  height: 43px;
+  color: #2b2b2b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  right: 90px;
+  bottom: 20px;
+  user-select: none;
+}
+
+.sifra {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+}
+.edit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.delete {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+  .name {
+    font-size: 20px;
+  }
+  .price {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}

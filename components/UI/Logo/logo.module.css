@@ -1,0 +1,37 @@
+.logo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 29px;
+  margin-left: 28px;
+  margin-top: 27px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 86%;
+  cursor: pointer;
+  display: inline-block;
+}
+.span {
+  color: #f54343;
+}
+.p {
+  margin: 2px;
+}
+.logowide {
+  width: 413px;
+  height: 93px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 86px;
+  color: #212121;
+  position: relative;
+  z-index: 3;
+  background-color: #f7f7f7c9;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .logowide {
+    font-size: 50px;
+  }
+}

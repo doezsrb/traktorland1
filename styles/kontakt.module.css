@@ -1,0 +1,127 @@
+.body {
+  width: 100%;
+  height: auto;
+  padding-top: 108px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f7;
+  z-index: 2;
+  margin-bottom: 319px;
+}
+
+.naslov {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  color: #2b2b2b;
+  margin-left: 47px;
+}
+
+.opis {
+  margin-left: 47px;
+  max-width: 553px;
+  margin-top: 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  z-index: 10;
+  position: relative;
+  color: #212121;
+}
+
+.ConInfo {
+  position: absolute;
+  right: 60px;
+  top: 120px;
+  z-index: 10;
+}
+
+.maps {
+  position: absolute;
+  text-align: right;
+  top: 250px;
+  right: 52px;
+  z-index: 1;
+}
+
+.onama {
+  background-image: url(../public/linke.png);
+  width: 100%;
+  background-size: cover;
+  padding: 35px 55px;
+  z-index: 10;
+}
+.onama h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #f54343;
+}
+.onama p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 162.8%;
+
+  color: #2b2b2b;
+}
+
+@media screen and (max-width: 1500px) {
+  .mapaimg {
+    /* width: 80%; */
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .maps {
+    position: relative;
+    top: 0;
+    text-align: left;
+    padding-left: 47px;
+  }
+  .maps img {
+    margin-left: 47px;
+    width: calc(100% - 40px);
+  }
+  .opis {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .body {
+    position: relative;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .opis {
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+  .ConInfo {
+    position: relative;
+    top: 0;
+    margin-left: 21px;
+    left: 0;
+  }
+  .naslov {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ConInfo {
+    margin-left: 0px;
+  }
+}

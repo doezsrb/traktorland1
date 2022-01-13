@@ -1,0 +1,146 @@
+.cartitem {
+  width: calc(100% - 30px);
+  margin: 15px 15px 0px 15px;
+  height: 100px;
+  position: relative;
+  border-bottom: 1px solid #bcbcbc;
+}
+.checkoutitem {
+  width: 650px;
+  background: #fefefe;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  margin-left: 100px;
+  position: relative;
+  height: 110px;
+}
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 115px;
+  height: auto;
+}
+.cimg {
+  position: absolute;
+  top: 28.5px;
+  left: 13px;
+  width: 115px;
+  height: auto;
+}
+.name {
+  margin-left: 130px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #2b2b2b;
+  max-width: 255px;
+  overflow: hidden;
+  max-height: 40px;
+}
+.cname {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  color: #2b2b2b;
+  margin-left: 140px;
+  padding-top: 20px;
+  max-width: 370px;
+  height: 45px;
+  overflow: hidden;
+  margin-bottom: 0;
+  height: 63px;
+  margin-right: 135px;
+}
+.price {
+  margin-left: 130px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #2b2b2b;
+  margin-top: 0;
+  display: inline-block;
+}
+.cprice {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 20px;
+  color: #2b2b2b;
+  margin-left: 140px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 1300px) {
+  .checkoutitem {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  .checkoutitem {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .cartitem {
+    height: 120px;
+  }
+  .cartitem .name {
+    max-height: 80px;
+    margin-bottom: 5px;
+  }
+  .cartitem .price {
+    max-height: 60px;
+    bottom: 0;
+    position: absolute;
+    left: -120px;
+  }
+  .cname {
+    font-size: 18px;
+  }
+  .cprice {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cartitem {
+    height: 140px;
+  }
+  .checkoutitem {
+    height: 160px;
+  }
+  .cname {
+    margin-right: 5px;
+    height: 80px;
+  }
+  .cprice {
+    bottom: 0;
+    position: absolute;
+    left: -120px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cprice {
+    margin-bottom: 30px;
+  }
+  .cprice span {
+    position: absolute;
+    left: 0;
+    top: 25px;
+  }
+  .price {
+    margin-bottom: 30px;
+  }
+  .price span {
+    position: absolute;
+    left: 0;
+    top: 25px;
+  }
+}

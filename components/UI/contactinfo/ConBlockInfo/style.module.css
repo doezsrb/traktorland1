@@ -1,0 +1,38 @@
+.div {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  margin-left: 47px;
+  z-index: 10;
+  position: relative;
+}
+.block {
+  display: inline-block;
+  width: 250px;
+  margin: 20px 0;
+}
+.naslov {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f54343;
+}
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .div {
+    justify-content: left;
+  }
+}

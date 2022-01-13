@@ -1,0 +1,39 @@
+.prikazi {
+  position: absolute;
+  /* display: inline-block; */
+  display: inline;
+  margin: 0;
+  background: #f54343;
+  border-radius: 5px;
+  width: 27px;
+  height: 23px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 3px;
+  color: #ffffff;
+  left: 30px;
+  top: -10px;
+}
+.nema {
+  display: none;
+}
+.carticon {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  box-shadow: 1px 6px 19px rgba(0, 0, 0, 0.05);
+  border-radius: 9px;
+  cursor: pointer;
+}
+.carticon img {
+  margin-top: 13px;
+  margin-left: 11px;
+  user-select: none;
+}

@@ -1,0 +1,38 @@
+.adminLayout {
+  width: 300px;
+  height: 100%;
+  min-height: 1024px;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.linkovi {
+  cursor: pointer;
+  margin-left: 30px;
+  margin-top: 40px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 86%;
+  color: #000000;
+}
+
+@media only screen and (max-width: 1450px) {
+  .adminLayout {
+    width: 200px !important;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .adminLayout {
+    height: 400px;
+    width: 100% !important;
+  }
+  .linkovi {
+    margin-top: 25px;
+    /* display: inline; */
+  }
+}

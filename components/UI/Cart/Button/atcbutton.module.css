@@ -1,0 +1,18 @@
+.Button {
+  background: #f54343;
+  width: 148.28px;
+  height: 48.24px;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  outline: none;
+  border: 0;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}

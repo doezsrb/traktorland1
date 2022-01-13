@@ -1,0 +1,68 @@
+.body {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding-top: 108px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f7;
+  z-index: 2;
+  margin-bottom: 319px;
+}
+.form {
+  margin-left: calc(50% - 257.5px);
+  width: 500px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  position: relative;
+}
+.form p {
+  display: block;
+  width: 100%;
+  margin: 0 0 10px 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2b2b2b;
+}
+.naslov {
+  margin-top: 30px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  color: #212121;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.logout {
+  background-color: #2b2b2b;
+  color: white;
+  width: 150px;
+  margin: 20px 10px;
+}
+.edit {
+  width: 150px;
+  margin: 20px 10px;
+}
+.blok {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .body {
+    position: relative;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,51 @@
+.body {
+  width: 100%;
+  height: auto;
+  padding-top: 108px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f7;
+  z-index: 2;
+  margin-bottom: 319px;
+  padding-bottom: 50px;
+  min-height: calc(100% - 280px);
+}
+
+.naslov {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  color: #2b2b2b;
+  margin-left: 47px;
+  cursor: pointer;
+}
+.line {
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid #bcbcbc;
+}
+
+.naslov2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  margin-top: 100px;
+  color: #212121;
+}
+
+.naslovmanji {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 47px;
+  color: #2b2b2b;
+}

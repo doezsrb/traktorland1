@@ -1,0 +1,98 @@
+.body {
+  width: 100%;
+  min-height: 700px;
+  height: auto;
+  padding-top: 108px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f7;
+  z-index: 2;
+  margin-bottom: 319px;
+  padding-bottom: 150px;
+}
+.block {
+  display: block;
+  width: 100%;
+}
+.forgotpw {
+  position: absolute;
+  left: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #f54343;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.registerprvi {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #212121;
+  margin-top: 25px;
+  user-select: none;
+}
+.register {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #f54343;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.line {
+  border: 0.5px solid #2b2b2b;
+  width: 90%;
+  margin-left: 5%;
+  height: 0;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.choosebutton {
+  margin: 15px;
+  cursor: pointer;
+  width: 211px;
+  height: 54px;
+}
+.desno {
+  position: absolute;
+  right: 0;
+}
+.levo {
+  position: absolute;
+  left: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #f54343;
+  margin-top: 45px;
+  cursor: pointer;
+}
+@media screen and (max-width: 950px) {
+  .body {
+    position: relative;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .forgotpw {
+    position: relative;
+  }
+  .registerprvi {
+    position: relative;
+    margin-top: 0;
+  }
+}

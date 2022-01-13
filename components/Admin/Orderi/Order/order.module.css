@@ -1,0 +1,95 @@
+.order {
+  width: calc(50% - 20px);
+  height: 118px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  margin: 10px 10px;
+}
+.id {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #a8a8a8;
+}
+.ime {
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 20px;
+  height: 118px;
+  /* position: absolute; */
+}
+.order h2,
+.order h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 86%;
+  color: #2b2b2b;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+.kolicina {
+  display: inline-block;
+  left: 250px;
+  padding-top: 35px;
+  height: 118px;
+  position: absolute;
+}
+.cena {
+  display: inline-block;
+  left: 450px;
+  padding-top: 35px;
+  height: 118px;
+  position: absolute;
+}
+.cena h2,
+.cena h3 {
+  display: inline-block;
+}
+.dugme {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+.dugme button {
+  background: #f54343;
+  box-shadow: 1px 4px 9px rgba(226, 40, 40, 0.09);
+  outline: none;
+  border-radius: 9px;
+  width: 71px;
+  height: 57px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1650px) {
+  .cena {
+    left: 350px;
+  }
+  .kolicina {
+    left: 200px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .order {
+    display: block;
+    width: 630px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .order {
+    display: block;
+    width: 630px;
+  }
+}

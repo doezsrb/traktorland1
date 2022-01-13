@@ -1,0 +1,91 @@
+.coninfo {
+  width: 385px;
+  height: 84px;
+  background: linear-gradient(
+    90deg,
+    #f7f7f7 0%,
+    #ffffff 26.56%,
+    #fefefe 63.02%,
+    #f5f5f5 100%
+  );
+  box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.06);
+  border-radius: 18px;
+  position: relative;
+  margin-top: 26px;
+  margin-left: 26px;
+  z-index: 10;
+}
+
+.phone {
+  color: #f54343;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  position: absolute;
+  top: -18px;
+  left: 75px;
+}
+
+.mail {
+  color: #f54343;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  position: absolute;
+  left: 75px;
+  top: 22px;
+}
+.line {
+  position: absolute;
+  width: 0.5px;
+  height: 84px;
+  left: 53px;
+  top: 0;
+
+  background: #d2d2d2;
+}
+.phoneimg {
+  position: absolute;
+  height: 19px;
+  left: 18px;
+  top: 11px;
+}
+.mailimg {
+  position: absolute;
+  left: 16.3px;
+  top: 53.46px;
+}
+
+@media screen and (max-width: 430px) {
+  .coninfo {
+    width: calc(100% - 52px);
+  }
+  .phone {
+    font-size: 18px;
+    top: -12px;
+  }
+  .mail {
+    font-size: 18px;
+    top: 27px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .coninfo {
+    width: calc(100% - 25px);
+    margin-left: 12.5px;
+  }
+  .phone {
+    font-size: 17px;
+    top: -10px;
+    left: 65px;
+  }
+  .mail {
+    font-size: 17px;
+    top: 28px;
+    left: 65px;
+  }
+}

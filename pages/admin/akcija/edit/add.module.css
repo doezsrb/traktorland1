@@ -1,0 +1,74 @@
+.proizvodi {
+  background: #f0f0f0;
+  width: calc(100% - 300px);
+  height: auto;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 300px;
+  padding-bottom: 25px;
+  padding-top: 90px;
+}
+
+.heading {
+  height: 90px;
+  background: #ffffff;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+.heading h3 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 86%;
+  color: #000000;
+  margin-left: 20px;
+  display: inline-block;
+}
+.upload {
+  margin: 15px 0 0 15px;
+  z-index: 1;
+}
+.inputfile {
+  width: 133px;
+  height: 133px;
+  position: absolute;
+  margin: 15px 0 0 15px;
+  opacity: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+.nazad {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 86%;
+  cursor: pointer;
+  color: #2b2b2b;
+}
+.additemforma {
+  margin-left: 50px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.submit {
+  width: 300px;
+  height: 60px;
+  background-color: #f54343;
+  color: white;
+  font-size: 24px;
+  font-family: "Open Sans";
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}

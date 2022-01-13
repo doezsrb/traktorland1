@@ -1,0 +1,77 @@
+.brisi {
+  position: absolute;
+  right: 11px;
+  bottom: 45px;
+  cursor: pointer;
+}
+
+.kolicina {
+  border: 0.5px solid #f54343;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 43px;
+  height: 43px;
+  color: #2b2b2b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  right: 90px;
+  bottom: 20px;
+  user-select: none;
+}
+.up {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  bottom: 63px;
+}
+.down {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  bottom: 28px;
+}
+.sifra {
+  position: absolute;
+  top: -10px;
+  left: 14px;
+}
+
+/* @media screen and (max-width: 550px) {
+    /* .cartItemInfo{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    } */
+
+@media screen and (max-width: 550px) {
+  .checkoutItemInfo .up {
+    bottom: 43px;
+  }
+  .checkoutItemInfo .down {
+    bottom: 8px;
+  }
+  .checkoutItemInfo .kolicina {
+    bottom: 0;
+  }
+  .checkoutItemInfo .brisi {
+    bottom: 25px;
+  }
+  .cartItemInfo .up {
+    bottom: 43px;
+  }
+  .cartItemInfo .down {
+    bottom: 8px;
+  }
+  .cartItemInfo .kolicina {
+    bottom: 0;
+  }
+  .cartItemInfo .brisi {
+    bottom: 25px;
+  }
+}

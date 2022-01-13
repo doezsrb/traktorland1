@@ -1,0 +1,78 @@
+.popup {
+  position: fixed;
+  width: 500px;
+  height: 260px;
+  left: calc(50% - 250px);
+  top: 200px;
+  background: #fefefe;
+  border-radius: 17px;
+  z-index: 90;
+}
+.wrapper {
+  position: absolute;
+  backdrop-filter: blur(10px);
+  top: 0;
+  left: 0;
+  height: calc(100% + 319px);
+  width: 100%;
+  background: rgba(47, 46, 65, 0.1);
+  z-index: 80;
+  cursor: pointer;
+}
+.nema {
+  display: none;
+}
+.divv {
+  text-align: center !important;
+  padding-top: 15px;
+  width: 100%;
+}
+.drugi {
+  display: inline-block;
+  background-color: #fefefe;
+  color: #f54343;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 10px 10px;
+}
+
+.treci {
+  display: inline-block;
+  background-color: #fefefe;
+  color: #2b2b2b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 10px 10px;
+}
+.popup h3 {
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #2b2b2b;
+}
+.prvi {
+  margin-left: calc(50% - 105px);
+}
+
+@media screen and (max-width: 620px) {
+  .popup {
+    width: calc(100% - 30px);
+    left: 15px;
+  }
+}
+
+@media screen and (max-width: 473px) {
+  .popup {
+    height: 340px;
+  }
+}

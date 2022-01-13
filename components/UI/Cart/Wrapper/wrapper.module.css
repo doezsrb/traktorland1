@@ -1,0 +1,13 @@
+.wrapper {
+  position: absolute;
+  backdrop-filter: blur(10px);
+  top: 0;
+  left: 0;
+  height: calc(100% + 319px);
+  width: 100%;
+  background: rgba(47, 46, 65, 0.1);
+  z-index: 90;
+}
+.nema {
+  display: none;
+}

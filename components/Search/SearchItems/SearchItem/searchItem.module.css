@@ -1,0 +1,50 @@
+.searchitem {
+  display: block;
+  height: 70px;
+  border-top: 0.5px solid #bcbcbc;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+  padding-top: 7px;
+}
+.searchitem img {
+  max-width: 100px;
+}
+.searchitem h2 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 115px;
+  top: -13px;
+  max-height: 35px;
+  overflow: hidden;
+}
+.searchitem h3 {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  left: 115px;
+  top: 15px;
+}
+.searchitem h3 span {
+  color: #f54343;
+}
+
+@media screen and (max-width: 1250px) {
+  .searchitem {
+    height: 87px;
+  }
+  .searchitem img {
+    margin-top: 10px;
+  }
+  .searchitem h2 {
+    line-height: 16px;
+    top: -5px;
+    max-height: 33px;
+  }
+  .searchitem h3 {
+    top: 30px;
+  }
+}

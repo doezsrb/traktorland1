@@ -1,0 +1,67 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiperSlide {
+  background-color: red;
+  padding-top: 25px;
+  width: 298px;
+  height: auto;
+  outline: none;
+  background-color: white;
+  border-radius: 27px;
+  border: 0;
+  position: relative;
+}
+.swiperSlideLink {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.swiperRoot {
+  width: 90%;
+  background-color: #f7f7f7 !important;
+}
+.slideImg {
+  max-width: calc(100% - 30px);
+  /* margin-bottom: 15px; */
+}
+.akcijaIme {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 15px;
+  height: 56px;
+  text-align: center;
+  overflow: hidden;
+  width: calc(100% - 30px);
+  font-size: 22px;
+  line-height: 28px;
+}
+.cena,
+.popust {
+  margin-top: 0;
+  font-size: 19px;
+}
+.cena {
+  margin-bottom: 10px;
+}
+
+.arrowNext,
+.arrowPrev {
+  cursor: pointer;
+  transition: 0.2s;
+}
+.arrowNext:hover,
+.arrowPrev:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 450px) {
+  .swiperSlide {
+    width: 250px;
+  }
+}

@@ -1,0 +1,18 @@
+.Navitem {
+  font-family: HelveticaNeue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 20px;
+  color: #8f8f8f;
+  width: 66px;
+  height: 20px;
+  /* left: 733px; */
+}
+.Navitem:active {
+  color: #f54343;
+}
+.Navitem:hover {
+  color: #f54343;
+}

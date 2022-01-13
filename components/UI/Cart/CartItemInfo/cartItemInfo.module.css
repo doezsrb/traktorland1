@@ -1,0 +1,38 @@
+.brisi {
+  position: absolute;
+  right: 11px;
+  bottom: 45px;
+  cursor: pointer;
+}
+
+.kolicina {
+  border: 0.5px solid #f54343;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 43px;
+  height: 43px;
+  color: #2b2b2b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  right: 90px;
+  bottom: 20px;
+  user-select: none;
+}
+.up {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  bottom: 63px;
+}
+.down {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  bottom: 28px;
+}

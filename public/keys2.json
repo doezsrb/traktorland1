@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "traktorland-rs",
+  "private_key_id": "558a720919e08d1839539613e5c73693f75dfbc2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0Z60QVOM4WGHI\nPBpQfqvx5zyOcBmarAG7ZynFbgAQ7orYfM1zxrtII+DaYWGDO+8aRtwqpA8IkPka\n2oHHFK35vyalBu8g2/+DAuFAiKThHu12vDwP+ZcjidjvpeSdGiG9IqLRwxRfoBPF\nNsQUUZmTycLCcP3Of2YBTZzSGaz82jt2MWK/DISjMS2uF8/8v1N1aiMWRcwoRkCG\nTaCk4zWH9D/igVyK6jUsv3JTMwDlUvf5YUDstXoazPTc/Yv0ov+QstW5Jiy9cxvd\nzK0WkoeaErh0kg17KA5sXUVHBI/2bHUtwne7kLQs7VIM9DsPn8EY/6Ad05TIz2wJ\nG/xJXwVnAgMBAAECggEANVyJQ1BomU0DN1AX1IFzaK0mK1ebKzX/mSgNoflEib2V\nUi2wM7Ovx8ndA5tUVZYPxmz5SJ+YVsdS9490XaePQlU5IA0qBEUukdjzObxxUKlu\nQfWxqmQAQaHPiis+sP1+x0wMbxFN4G8gCfCGFSCB1cYTFqKHYGIskOwdG8Q+d9ey\nD9KWvZ3tpMV7K60dk/lO3OgwXf9U5DFbL9O1Bm8Kq7TgzEMC2ql+IbtiGGYed3JB\nOrFSHEYA1iHZ51QHjfy4nsD5C20sgDzD0C/b4tBaa+egtTjpYWDFwhB6C9NTpKEx\nEFJAOzMFSo1JIwXNOF/a+FX9+L/G1RKssuRTXUEmOQKBgQDfHf8UXb1pmtfrlk02\nIgahehHqW5LNbqOc8TWL5MNisycyNddjgDjp+tNgVQnkDpDSz11hCTscKM3f9/1k\nZi+eHINmhg6DfO7IkdsiuLz/klB0hOdVOUL3ctRl6eUZhhvyyZsD+IcGGNnWnbhr\nxDW8BA5Awcl7BdvnOyK2wx3K0wKBgQDO/jA9E9HvUw3JQVIeVi/KNk8h1zcSEKxh\nTHLjWDssB0s3u+gDc9W4Bf3tXKx5slb0pUlk3bSXVlBguLVRMeza/xQ+5k8xlhNc\nHnPvukKmcMXjksfAgeO6S+yhPQOUEuIz9Bincc3Irl5P3RHI5ogmzsDFIQm5InNy\n+2pg2naWnQKBgHiYfwokDMAq6LA2wi8TPyBCmbJhoryVI6wtmDKwCIetq+7wuSXX\n5Wtanqu/6yOwV8kKOj+7vI5g474+DWEZ9nzwjnl41hluCqawZ5Ch583/6KrCN0OS\nOscC8xjOznz4Rtz46WfBCkJaZkwhXdAp8p1YV9fapqtvJEgcZ4v/dHfvAoGBAMM7\n8VfKd/qZhalLmR7P/+dkbiLnESRS4aQsLTjNoZIXlxSMgXuwJ+aYkDbvcCag1W+O\n7rjafFk5qjpwPWTGCDdO3FOvewa0HLKIbqWwMuk1+RB7AzlJyfePYTN7jwJ9BSon\nk5Frv8MG5CHDy+CHv+eKnzvPu5IJModDJ8UOiUfpAoGAfjG6I6rafc6blHyWgabP\nztHG1g7iTdNbz2XRDPkovOfC98RzU/t8Wg8y8ivVf65Bf8P48XfOyk/aVX5TAAsq\neik6YUj6r7CZWOR2WRymMv3yOt0+oenNajenTw1HAPRhIoyUuuUBaKGKu+LiZaOs\nR16kfJwme+4fIid8RGMakBQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "traktorlandtest@traktorland-rs.iam.gserviceaccount.com",
+  "client_id": "117559113809964170059",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/traktorlandtest%40traktorland-rs.iam.gserviceaccount.com"
+}

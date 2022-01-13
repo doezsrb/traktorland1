@@ -1,0 +1,10 @@
+.korisnici {
+  padding: 10px;
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+  .korisnici {
+    overflow-x: scroll;
+  }
+}

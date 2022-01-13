@@ -1,0 +1,39 @@
+.print {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 10000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 30px;
+}
+.print table {
+  width: 100%;
+  text-align: center;
+}
+
+.print td {
+  padding: 10px;
+  border-top: 0.5px solid black;
+}
+.print th {
+  padding: 10px;
+  /* border-top: 0.5px solid black; */
+}
+.print h3 {
+  font-family: "Open Sans";
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.print h2 {
+  font-family: "Open Sans";
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media print {
+  .print {
+    padding: 0 20px;
+  }
+}

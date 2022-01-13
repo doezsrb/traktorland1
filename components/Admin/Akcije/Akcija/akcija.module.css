@@ -1,0 +1,51 @@
+.edit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.delete {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+.akcija {
+  width: calc(50% - 20px);
+  height: 118px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+.akcija .slika {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 17px;
+  left: 15px;
+}
+.akcija h2,
+.akcija h3 {
+  margin-left: 180px;
+  font-family: "Open Sans";
+}
+.akcija h3 {
+  font-weight: 500;
+}
+.akcija h2 {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1250px) {
+  .akcija {
+    display: block;
+    width: calc(100% - 20px);
+  }
+}
+@media only screen and (max-width: 550px) {
+  .akcija {
+    width: 510px;
+  }
+}

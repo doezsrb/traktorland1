@@ -1,0 +1,14 @@
+.akcije {
+  padding: 10px;
+  padding-top: 100px;
+}
+@media only screen and (max-width: 880px) {
+  .akcije {
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .akcije {
+    overflow-x: scroll;
+  }
+}
